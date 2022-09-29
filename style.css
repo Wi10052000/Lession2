@@ -1,0 +1,37 @@
+body{
+    background-image: url("./zai.jpg");
+    background-size: cover;
+    background-position-y: -100px;
+}
+.container{
+    max-width: 960px;
+    margin: 0px auto;
+}
+#header{
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+#logo{
+    padding: 5px 0px;
+    margin: auto;
+}
+#logo img{
+    max-width: 50px;
+    height: auto;
+}
+#main-menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#main-menu li a{
+    color: beige;
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+}
